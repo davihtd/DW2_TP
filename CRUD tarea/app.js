@@ -8,5 +8,25 @@ function actu{
     for( i = 0; i < 10; ++i){
         console.log("acto a");
     }
+}function actu{
+    for( i = 0; i < 10; ++i){
+        console.log("acto a");
+    }
+}function actu{
+    for( i = 0; i < 10; ++i){
+        console.log("acto a");
+    }
+}function actu{
+    for( i = 0; i < 10; ++i){
+        console.log("acto a");
+    }
+}function actu{
+    for( i = 0; i < 10; ++i){
+        console.log("acto a");
+    }
+}function actu{
+    for( i = 0; i < 10; ++i){
+        console.log("acto a");
+    }
 }
 
