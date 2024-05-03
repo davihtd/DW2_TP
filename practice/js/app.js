@@ -1,14 +1,16 @@
 import datos from "../data/data.json" with{type:"json"}
-import { docente } from "./docente"
+import { docente } from "./docente.js"
 //console.log(datos)
 const tableBody = document.querySelector('#cuerpo-tabla')
 
 function addData(){
+  tableBody.innerHTML = ''
+
     datos.map((item)=>{
         const fila = document.createElement('tr')
         const celdas = `<td>${item.name}</td>
         <td>${item.last}</td>
-        <td>${item.Email}</td>
+        <td>${item.email}</td>
         <td>${item.tell}</td>
         <td>${item.date}</td>
         <td>
@@ -37,6 +39,7 @@ function loadData(event){
   let date = document.getElementById('date').value
   
   datos.push(new docente(id,name,last,email,tell,date))
+  document.getElementById('form-doct').reset()
   addData()
 }
   addData()
