@@ -3,16 +3,16 @@
       "id": 1,
       "name": "Osvaldo ",
       "last": "Enrique",
-      "Email": "osvald@gmail.com",
+      "email": "osvald@gmail.com",
       "tell": 23456234,
       "date": "01-01-1990"
     },
     {
       "id": 2,
-      "name": "Osvaldo ",
-      "last": "Enrique",
-      "Email": "osvald@gmail.com",
-      "tell": 23456234,
+      "name": "Pablo ",
+      "last": "Medina",
+      "email": "pabloMedina@gmail.com",
+      "tell": 111111111,
       "date": "01-01-1990"
     }
 ]
