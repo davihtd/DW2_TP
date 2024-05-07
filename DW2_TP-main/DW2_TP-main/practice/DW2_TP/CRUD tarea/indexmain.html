@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulario de maestros</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="stylesPG1.css" />
+</head>
+
+<body>
+  <h1>Form de Maestros</h1>
+  <div class="container">
+    <h1>Crud para docentes</h1>
+  </div>
+  <div class="container">
+    <div class="container mb-5">
+        <form>
+          <div class="col">
+            <div class="mb-3">
+              <label class="form-label">Nombre del Docente</label>
+              <input type="name" class="form-control" id="DOCE_NOMBRE">
+            </div>
+            <div class="mb-3" class="col">
+              <label class="form-label">Apellido del docente</label>
+              <input type="apellido" class="form-control" id="DOCE_APELLIDO">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email del Docente</label>
+              <input type="email" class="form-control" id="DOCE_EMAIL">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Fecha de nacimiento</label>
+              <input type="date" class="form-control" id="DOCE_CUMPLE">
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <i class="bi bi-plus-lg bi-3x">+</i>
+            </button>
+        </form>
+    </div>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Apellido</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2"> </td>
+        <td> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="container">
+    <div class="container mb-5">
+      <h1>Crud para Materias</h1>
+      <div class="col">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">ID de materia</label>
+            <input type="name" class="form-control" id="MAT_ID">
+
+          </div>
+          <div class="mb-3">
+            <label class="form-label">ID de carrera</label>
+            <input type="apellido" class="form-control" id="CARRE_ID">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">ID Docente</label>
+            <input type="email" class="form-control" id="DOCEID">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Nombre de materia</label>
+            <input type="email" class="form-control" id="MAT_NAME">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Code de materia</label>
+            <input type="email" class="form-control" id="MATCODE">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Año de materia</label>
+            <input type="email" class="form-control" id="MAT_ANHO">
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="bi bi-plus-lg bi-3x"> + </i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">ID de Docente</th>
+        <th scope="col">ID de materia</th>
+        <th scope="col">Nombre de materia</th>
+        <th scope="col">Code de materia</th>
+        <th scope="col">Año de materia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td colspan="2"> </td>
+        <td> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Bootstrap CSS 
+     <div class="fixed-bottom bg-success text-white text-center p-3">
+      <button class="btn btn-light btn-lg" onclick="volverAlMenu()">
+        Volver al Menú Principal
+      </button>
+    </div> */-->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/c2813ccf5d.js"></script>
+  <script src="scriptsPG1.js"></script>
+</body>
+
+</html>
