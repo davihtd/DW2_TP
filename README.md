@@ -8,3 +8,6 @@ Mi parte en este trabajo fue trabajar sobre cada div con la los estilos de la pa
 
 Kevin Nieto
 Mi parte del trabajo fue investigar los nombres y Id de las materias, asi como modificacion de los estilos, correcion de la tablas al momento de editar los campos y al momento de cargarlos, modificar los container para estilizar,corregir los titulos del html, modificacion de la imagen de fondo, testeo de la pagina y correccion de errores.
+
+David Rodriguez
+Yo me encargue de todo lo que es la parte logica del proyecto, las clases, el LocalStorage y de todo el funcionamiento del proyecto. Tambien ayude con el diseño del proyecto ya la estructura
